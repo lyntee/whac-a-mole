@@ -1,0 +1,25 @@
+#mole-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.score-board {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mole {
+  background-color: rgb(91, 33, 146);
+}
+
+@media (min-width: 800px) {
+  #mole-grid {
+    width: 350px;
+  }
+}
